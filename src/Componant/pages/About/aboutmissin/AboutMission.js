@@ -75,7 +75,7 @@ const AboutMission = () => {
           
           <div className="text-center px-4">
             <p className="text-sm font-semibold">
-              We empower businesses not just the right solutions and opportunities, but human intellect which makes THE difference.
+              We empower businesses not just the right solutions and opportunities, but human intellect which makes THE .
             </p>
           </div>
           <div className="w-full h-1 bg-orange-400 mt-6"></div>

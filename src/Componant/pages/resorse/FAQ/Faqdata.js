@@ -74,9 +74,9 @@ const FAQAccordion = () => {
 
   const toggleItem = (id) => {
     if (openItem === id) {
-      setOpenItem(null); // Close the current open item
+      setOpenItem(null); 
     } else {
-      setOpenItem(id); // Open the clicked item
+      setOpenItem(id); 
     }
   };
 

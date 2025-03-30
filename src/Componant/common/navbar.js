@@ -63,7 +63,7 @@ const ArtechNavbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-4">
-              <a href="#" className="text-gray-700 hover:text-blue-800 text-sm">Home</a>
+              <Link to={'/'} className="text-gray-700 hover:text-blue-800 text-sm">Home</Link>
               {navItems.map((item) => (
                 <div 
                   key={item.label} 

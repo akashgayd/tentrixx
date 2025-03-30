@@ -1,6 +1,7 @@
 import faqBanner from '../../../../imeges/resorsesImg/FAQs-banner.png';
 import FAQAccordion from './Faqdata';
 import Navber from '../../../common/navbar';
+import Footer from '../../../common/footer';
 
 const Faq = () => {
   return (
@@ -35,6 +36,7 @@ const Faq = () => {
         <div className="w-full max-w-3xl mx-auto border-t-4 border-amber-500"></div>
       </div>
       <FAQAccordion />
+      <Footer />
     </>
   );
 };
