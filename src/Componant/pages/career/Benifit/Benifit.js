@@ -3,7 +3,7 @@ import Img1 from "../../../../imeges/careerImg/health-.png";
 import Img2 from "../../../../imeges/careerImg/pension.png";
 import Img3 from "../../../../imeges/careerImg/training.png";
 
-const cardData = [
+  const cardData = [
   {
     img: Img1,
     title:

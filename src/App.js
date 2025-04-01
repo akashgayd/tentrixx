@@ -7,6 +7,7 @@ import Resorses from './Componant/pages/resorse/Resorses';
 import Faq from './Componant/pages/resorse/FAQ/faq';
 import Career from './Componant/pages/career/Career';
 
+
 function App() {
 
   return (
@@ -14,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/resorses" element={<Resorses />} />
+      <Route path="/resources" element={<Resorses />} />
       <Route path="/faq" element={<Faq />} />
       <Route path="/career" element={<Career />} />
     </Routes>
